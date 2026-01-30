@@ -1,0 +1,102 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-family: 'Tektur', sans-serif;
+}
+
+body{
+    background-color: rgb(110, 110, 110);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}nav {
+    display: flex;           
+    align-items: center;   
+    justify-content: center;
+    gap: 10px;               
+    width: 100%;             
+    margin-bottom: 10px;     
+    font-family: 'Tektur', sans-serif;
+    font-weight: bold;
+    
+    border-radius: 2px;
+}
+
+.input_nota{
+    border-radius: 7px;
+    background-color: rgb(220, 238, 245);
+    font-family: 'Tektur', sans-serif;
+    font-weight: bold;
+     box-shadow: 0 2px 0 2px;
+}
+
+main{
+    background-color: rgb(156, 156, 156);
+    border: 3px solid rgb(255, 255, 255);
+    width: 500px;
+    height: 500px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 4px 0 4px black;
+     box-shadow: 0 2px 0 2px;
+}
+
+#lista_notas{
+    border: 2px solid black;
+    height: 150px;
+    width: 90%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 7px;
+    background-color: rgba(38, 211, 47, 0.801);
+    font-weight: bold;
+    color:black;
+    overflow-y: auto; 
+    padding: 10px;
+    font-family: 'Tektur', sans-serif;
+     box-shadow: 0 2px 0 2px;
+    
+    
+}
+.button{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: lightgray;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Tektur', sans-serif;
+    box-shadow: 0 2px 0 2px;
+    font-size: 20px;
+}
+
+.button:active{
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
+#btn_calcular{
+    margin-top: 20px;
+    width: 100px;
+
+}
+
+p{
+    font-family: 'Tektur', sans-serif;
+    font-weight: bold;
+    border: 2px solid black;
+    box-shadow: 0 2px 0 2px;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    background-color: rgba(38, 113, 211, 0.801);
+}
